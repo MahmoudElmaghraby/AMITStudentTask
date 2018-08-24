@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the student name "
+        android:layout_marginBottom="6dp"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the student age "
+        android:layout_marginBottom="6dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the student grade "
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the student section "
+        android:inputType="number"
+        android:layout_marginBottom="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button_show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
